@@ -1210,7 +1210,7 @@
     let direction = "right";
     let nextDirection = "right";
     let food = {};
-    let score = 0;
+    let score = 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
     let highScore = 100000;
     let gameSpeed = 120;
     let gameInterval;
