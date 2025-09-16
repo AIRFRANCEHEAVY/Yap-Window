@@ -3494,8 +3494,8 @@ Snake only works outside of school hours (Monday-Friday 8:15 AM - 3:20 PM Pacifi
             const currentTime = hour * 60 + minute;
 
             if (
-              day >= 1 &&
-              day <= 5 &&
+              day >= 6 &&
+              day <= 7 &&
               currentTime >= schoolStart &&
               currentTime <= schoolEnd
             ) {
