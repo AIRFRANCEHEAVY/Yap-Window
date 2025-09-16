@@ -1211,7 +1211,7 @@
     let nextDirection = "right";
     let food = {};
     let score = 0;
-    let highScore = 0;
+    let highScore = 100000;
     let gameSpeed = 120;
     let gameInterval;
     let gameOver = false;
