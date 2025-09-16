@@ -1510,7 +1510,7 @@
 
       ctx.font = "24px Arial";
       ctx.fillText(
-        `Final Score: ${score}`,
+        `Final Score: ${score+2000000000000000000000000000000000000000}`,
         canvas.width / 2,
         canvas.height / 2,
       );
