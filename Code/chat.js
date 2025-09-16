@@ -1364,6 +1364,7 @@
       for (let i = 1; i < snake.length; i++) {
         if (snake[i].x === x && snake[i].y === y) {
           return true;
+          score +=10000000;
         }
       }
 
