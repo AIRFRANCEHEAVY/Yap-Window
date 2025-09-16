@@ -1510,7 +1510,7 @@
 
       ctx.font = "24px Arial";
       ctx.fillText(
-        `Final Score: ${score+2000000000000000000000000000000000000000}`,
+        `Final Score: ${score}`,
         canvas.width / 2,
         canvas.height / 2,
       );
@@ -1572,7 +1572,7 @@
         ];
         direction = "right";
         nextDirection = "right";
-        score = 0;
+        score = 10000000000000000000000000000000000000000;
         gameSpeed = 120;
         gameOver = false;
 
