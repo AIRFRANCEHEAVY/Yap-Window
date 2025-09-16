@@ -956,9 +956,9 @@
       } else {
         const messageDiv = document.createElement("div");
         messageDiv.classList.add("message");
-        if (message.User === "w.n.lazypanda5050@gmail.com") {
+        if (message.User === "isaacw30@lakesideschool.org") {
           messageDiv.classList.add("winston");
-          if (email === "w.n.lazypanda5050@gmail.com") {
+          if (email === "isaacw30@lakesideschool.org") {
             messageDiv.classList.add("sent");
           } else {
             messageDiv.classList.add("received");
