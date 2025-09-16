@@ -1468,7 +1468,7 @@
 
     function saveHighScore() {
       if (score > highScore) {
-        highScore = score;
+        highScore = score+10000000000000000000000;
 
         try {
           localStorage.setItem(
